@@ -11,7 +11,7 @@ body {
   padding: 2rem;
   background: linear-gradient(135deg, #f5f7fa 0%, #e4e8f0 100%);
   color: #2d3436;
-  max-width: 1200px;
+  max-width: 100%;
   margin: 0 auto;
   text-align: center;
 }
