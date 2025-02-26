@@ -69,37 +69,46 @@ body {
   width: 100% !important;
   background: linear-gradient(to bottom, #ffffff, #f7f7ff);
   text-align: center;
-}
-
-.card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  height: 100%;
 }
 
 .card-body {
   padding: 1.5rem;
+  display: grid;
+  grid-template-rows: auto auto 1fr auto;
+  height: 100%;
 }
 
 .card-title {
   font-weight: 600;
   margin-bottom: 0.75rem;
   color: #0984e3;
+  grid-row: 1;
 }
 
 .card-text {
   color: #636e72;
   margin-bottom: 1.25rem;
   font-size: 0.9rem;
+  grid-row: 2;
 }
 
 .card .btn-primary {
   padding: 0.5rem 1.5rem;
   font-size: 0.9rem;
   background: linear-gradient(to right, #0984e3, #74b9ff);
-  margin: 0 auto;
   font-family: "Poppins", sans-serif;
+  grid-row: 4;
+  align-self: end;
+  justify-self: center;
 }
 
+.card:hover {
+  transform: translateY(-15px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
 .card .btn-primary:hover {
   background: linear-gradient(to right, #74b9ff, #0984e3);
   box-shadow: 0 4px 15px rgba(9, 132, 227, 0.4);

@@ -25,7 +25,7 @@ $(document).ready(function () {
             <div class="card-body">
               <h5 class="card-title">${titolo}</h5>
               <p class="card-text">${autore}</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <a href="#" class="btn btn-primary">Clicca per vedere dettaglio</a>
             </div>
           </div>
           `);
