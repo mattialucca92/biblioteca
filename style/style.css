@@ -134,3 +134,94 @@ body {
     width: 80%;
   }
 }
+
+/* CSS PER MODALE */
+
+/* Modal CSS che mantiene lo stile del CSS originale */
+.modal-dialog {
+  max-width: 500px;
+  margin: 1.75rem auto;
+}
+
+.modal-content {
+  border: none;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
+  background: linear-gradient(to bottom, #ffffff, #f7f7ff);
+}
+
+.modal-header {
+  border-bottom: 1px solid #f0f0f7;
+  padding: 1.5rem;
+  background: linear-gradient(to right, #f5f7fa, #e4e8f0);
+}
+
+.modal-title {
+  font-weight: 600;
+  color: #0984e3;
+  font-family: "Poppins", sans-serif;
+}
+
+.btn-close {
+  transition: all 0.3s ease;
+}
+
+.btn-close:hover {
+  transform: rotate(90deg);
+}
+
+.modal-body {
+  padding: 1.5rem;
+  color: #636e72;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  font-family: "Poppins", sans-serif;
+}
+
+.modal-footer {
+  border-top: 1px solid #f0f0f7;
+  padding: 1.25rem;
+}
+
+.modal-footer .btn-secondary {
+  background: linear-gradient(to right, #0984e3, #74b9ff);
+  border: none;
+  padding: 0.6rem 2rem;
+  border-radius: 30px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  font-family: "Poppins", sans-serif;
+}
+
+.modal-footer .btn-secondary:hover {
+  background: linear-gradient(to right, #74b9ff, #0984e3);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(9, 132, 227, 0.4);
+}
+
+/* Animazione fade del modal */
+.modal.fade .modal-dialog {
+  transition: transform 0.3s ease-out;
+  transform: translateY(-10px);
+}
+
+.modal.show .modal-dialog {
+  transform: translateY(0);
+}
+
+.fade {
+  transition: opacity 0.15s linear;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .modal-dialog {
+    margin: 1rem;
+    width: calc(100% - 2rem);
+  }
+
+  .modal-footer .btn-secondary {
+    padding: 0.5rem 1.5rem;
+  }
+}
