@@ -28,40 +28,16 @@ Questo progetto rappresenta l'applicazione pratica di tutti i concetti appresi d
 
 1. Clona questo repository:
    ```bash
-   git clone https://github.com/tuo-username/nome-repository.git
+   gh repo clone mattialucca92/biblioteca
    ```
 
-2. Naviga nella directory del progetto:
-   ```bash
-   cd nome-repository
-   ```
-
-3. Apri il file `index.html` nel tuo browser web preferito.
+2. Apri il file `index.html` nel tuo browser web preferito.
 
 **Nota**: Se il progetto utilizza dipendenze che richiedono installazione, aggiungi i passaggi necessari.
 
-## 🧪 Come Usare l'Applicazione
-
-1. Apri l'applicazione tramite il link sopra o localmente.
-2. [Descrivi il primo passo che l'utente deve compiere].
-3. [Descrivi i passaggi successivi].
-4. [Aggiungi esempi di utilizzo se necessario].
-
-## 📚 Risorse Utilizzate
-
-- [Risorsa 1](link) - A cosa è servita
-- [Risorsa 2](link) - A cosa è servita
-- [Risorsa 3](link) - A cosa è servita
 
 ## 👥 Autori
 
-- **[Tuo Nome]** - [GitHub](https://github.com/tuo-username)
+- **Mattia Lucca** - [GitHub](https://github.com/tuo-username)
 
-## 📄 Licenza
 
-Questo progetto è distribuito con licenza [tipo di licenza] - vedi il file [LICENSE.md](LICENSE.md) per i dettagli.
-
-## 🙏 Ringraziamenti
-
-- Ringrazia chiunque abbia contribuito al progetto
-- Menziona ispirazione, tutorial seguiti, ecc.
