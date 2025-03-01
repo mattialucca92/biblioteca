@@ -38,6 +38,6 @@ Questo progetto rappresenta l'applicazione pratica di tutti i concetti appresi d
 
 ## 👥 Autori
 
-- **Mattia Lucca** - [GitHub](https://github.com/tuo-username)
+- **Mattia Lucca** - [GitHub](https://github.com/mattialucca92)
 
 
